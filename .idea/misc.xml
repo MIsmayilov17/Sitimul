@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/ISMAYILOV MEHEMMED/SitimulAcademi/app/src/main/res/drawable/listning_play_button.xml" value="0.26614583333333336" />
+        <entry key="..\:/ISMAYILOV MEHEMMED/SitimulAcademi/app/src/main/res/layout/activity_dinleme.xml" value="0.264" />
+        <entry key="..\:/ISMAYILOV MEHEMMED/SitimulAcademi/app/src/main/res/layout/activity_gersayim.xml" value="0.25" />
+        <entry key="..\:/ISMAYILOV MEHEMMED/SitimulAcademi/app/src/main/res/layout/activity_guiz.xml" value="0.264" />
+        <entry key="..\:/ISMAYILOV MEHEMMED/SitimulAcademi/app/src/main/res/layout/activity_listning.xml" value="0.264" />
+        <entry key="..\:/ISMAYILOV MEHEMMED/SitimulAcademi/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/ISMAYILOV MEHEMMED/SitimulAcademi/app/src/main/res/layout/activity_ogrenim.xml" value="0.25" />
+        <entry key="..\:/ISMAYILOV MEHEMMED/SitimulAcademi/app/src/main/res/layout/activity_sellect_random.xml" value="0.264" />
+        <entry key="..\:/ISMAYILOV MEHEMMED/SitimulAcademi/app/src/main/res/mipmap-anydpi-v26/ic.launcher.xml" value="0.14322916666666666" />
+        <entry key="..\:/ISMAYILOV MEHEMMED/SitimulAcademi/app/src/main/res/mipmap-anydpi-v26/ic.launcher_round.xml" value="0.16302083333333334" />
+        <entry key="..\:/ISMAYILOV MEHEMMED/SitimulAcademi/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.16302083333333334" />
+        <entry key="..\:/ISMAYILOV MEHEMMED/SitimulAcademi/app/src/main/res/mipmap-anydpi-v26/icon.lau_ncher.xml" value="0.16302083333333334" />
+        <entry key="..\:/ISMAYILOV MEHEMMED/SitimulAcademi/app/src/main/res/mipmap-anydpi-v26/icon.lau_ncher_round.xml" value="0.16302083333333334" />
+        <entry key="..\:/ISMAYILOV MEHEMMED/SitimulAcademi/app/src/main/res/mipmap-anydpi-v26/icon.launcher.xml" value="0.14322916666666666" />
+        <entry key="..\:/ISMAYILOV MEHEMMED/SitimulAcademi/app/src/main/res/mipmap-anydpi-v26/icon.launcher_round.xml" value="0.26614583333333336" />
+        <entry key="..\:/ISMAYILOV MEHEMMED/SitimulAcademi/app/src/main/res/mipmap-anydpi-v26/launche__icon.xml" value="0.16302083333333334" />
+        <entry key="..\:/ISMAYILOV MEHEMMED/SitimulAcademi/app/src/main/res/mipmap-anydpi-v26/launche__icon_round.xml" value="0.16302083333333334" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+  <component name="VisualizationToolProject">
+    <option name="state">
+      <ProjectState>
+        <option name="scale" value="0.176" />
+      </ProjectState>
+    </option>
+  </component>
+</project>

@@ -1,0 +1,1535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".listning">
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="185dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="15dp"
+        android:text="Listening"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textSize="34sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/lprofile"
+        android:layout_width="93dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="5dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="profile"
+        android:textColor="#070707"
+        android:textSize="12sp"
+        app:cornerRadius="15dp"
+        app:icon="@drawable/account"
+        app:iconGravity="textTop"
+        app:iconSize="35dp"
+        app:iconTint="#000000"
+        app:layout_constraintStart_toEndOf="@+id/button2"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView3" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="96dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="5dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Listening"
+        android:textColor="#1C9181"
+        android:textSize="10sp"
+        android:textStyle="bold"
+        app:cornerRadius="15dp"
+        app:icon="@drawable/listening"
+        app:iconGravity="textTop"
+        app:iconSize="35dp"
+        app:iconTint="#1C9181"
+        app:layout_constraintStart_toEndOf="@+id/lcourses"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView3" />
+
+    <Button
+        android:id="@+id/lcourses"
+        android:layout_width="95dp"
+        android:layout_height="85dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Courses"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:cornerRadius="15dp"
+        app:icon="@drawable/menu"
+        app:iconGravity="textTop"
+        app:iconSize="35dp"
+        app:iconTint="#000000"
+        app:iconTintMode="src_atop"
+        app:layout_constraintStart_toEndOf="@+id/lhome"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView3" />
+
+    <Button
+        android:id="@+id/lhome"
+        android:layout_width="93dp"
+        android:layout_height="85dp"
+        android:layout_marginStart="8dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="Home"
+        android:textColor="#000000"
+        android:textSize="12sp"
+        app:cornerRadius="15dp"
+        app:icon="@drawable/hut"
+        app:iconGravity="textTop"
+        app:iconSize="35dp"
+        app:iconTint="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/scrollView3" />
+
+    <ScrollView
+        android:id="@+id/scrollView3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginBottom="88dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/l11"
+                android:layout_width="185dp"
+                android:layout_height="125dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening1"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/unit1" />
+
+            <Button
+                android:id="@+id/l12"
+                android:layout_width="175dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 2"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toEndOf="@+id/l11"
+                app:layout_constraintTop_toBottomOf="@+id/unit1" />
+
+            <Button
+                android:id="@+id/l15"
+                android:layout_width="185dp"
+                android:layout_height="92dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="2dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 5"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/l13" />
+
+            <Button
+                android:id="@+id/l17"
+                android:layout_width="185dp"
+                android:layout_height="110dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="2dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 7"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/l15" />
+
+            <Button
+                android:id="@+id/l14"
+                android:layout_width="175dp"
+                android:layout_height="155dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="2dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 4"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toEndOf="@+id/l13"
+                app:layout_constraintTop_toBottomOf="@+id/l12" />
+
+            <Button
+                android:id="@+id/l21"
+                android:layout_width="185dp"
+                android:layout_height="115dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 1"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/unit2" />
+
+            <Button
+                android:id="@+id/l210"
+                android:layout_width="175dp"
+                android:layout_height="115dp"
+                android:layout_marginStart="10dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 10"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toEndOf="@+id/l27"
+                app:layout_constraintTop_toBottomOf="@+id/l28" />
+
+            <Button
+                android:id="@+id/l26"
+                android:layout_width="175dp"
+                android:layout_height="138dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="2dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 6"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toEndOf="@+id/l25"
+                app:layout_constraintTop_toBottomOf="@+id/l24" />
+
+            <Button
+                android:id="@+id/l13"
+                android:layout_width="185dp"
+                android:layout_height="77dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="2dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 3"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/l11" />
+
+            <Button
+                android:id="@+id/l23"
+                android:layout_width="185dp"
+                android:layout_height="77dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="2dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 3"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/l21" />
+
+            <Button
+                android:id="@+id/l16"
+                android:layout_width="175dp"
+                android:layout_height="135dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="2dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 6"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toEndOf="@+id/l17"
+                app:layout_constraintTop_toBottomOf="@+id/l14" />
+
+            <Button
+                android:id="@+id/l28"
+                android:layout_width="175dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 8"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toEndOf="@+id/l27"
+                app:layout_constraintTop_toBottomOf="@+id/l26" />
+
+            <Button
+                android:id="@+id/l29"
+                android:layout_width="185dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="15dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 9"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/l27" />
+
+            <Button
+                android:id="@+id/l24"
+                android:layout_width="175dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="10dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 4"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toEndOf="@+id/l21"
+                app:layout_constraintTop_toBottomOf="@+id/l22" />
+
+            <Button
+                android:id="@+id/l27"
+                android:layout_width="185dp"
+                android:layout_height="127dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="2dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 7"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/l25" />
+
+            <Button
+                android:id="@+id/l25"
+                android:layout_width="185dp"
+                android:layout_height="127dp"
+                android:layout_marginStart="15dp"
+                android:layout_marginTop="2dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 5"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/l23" />
+
+            <Button
+                android:id="@+id/unit1"
+                android:layout_width="0dp"
+                android:layout_height="72dp"
+                android:backgroundTint="#1C9181"
+                android:checkable="true"
+                android:clickable="true"
+                android:insetLeft="10dp"
+                android:insetRight="10dp"
+                android:onClick="lisning_acilis"
+                android:text="Unit 1"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:visibility="visible"
+                app:cornerRadius="10dp"
+                app:icon="@drawable/headphone__1_"
+                app:iconSize="35dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/unit2"
+                android:layout_width="0dp"
+                android:layout_height="72dp"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="#1C9181"
+                android:checkable="true"
+                android:clickable="true"
+                android:insetLeft="10dp"
+                android:insetRight="10dp"
+                android:onClick="lisning_acilis"
+                android:text="Unit 2"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:visibility="visible"
+                app:cornerRadius="10dp"
+                app:icon="@drawable/airpods"
+                app:iconSize="35dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/l17" />
+
+            <Button
+                android:id="@+id/l22"
+                android:layout_width="175dp"
+                android:layout_height="107dp"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 2"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toEndOf="@+id/l21"
+                app:layout_constraintTop_toBottomOf="@+id/unit2" />
+
+            <Button
+                android:id="@+id/unit3"
+                android:layout_width="0dp"
+                android:layout_height="72dp"
+                android:backgroundTint="#1C9181"
+                android:clickable="true"
+                android:insetLeft="10dp"
+                android:insetRight="10dp"
+                android:onClick="lisning_acilis"
+                android:text="Unit 3"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:visibility="visible"
+                app:cornerRadius="10dp"
+                app:icon="@drawable/headphone__4_"
+                app:iconSize="40dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/l210" />
+
+            <Button
+                android:id="@+id/l31"
+                android:layout_width="185dp"
+                android:layout_height="125dp"
+                android:layout_marginStart="12dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening1"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/unit3" />
+
+            <Button
+                android:id="@+id/l35"
+                android:layout_width="185dp"
+                android:layout_height="92dp"
+                android:layout_marginStart="12dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 5"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/l33" />
+
+            <Button
+                android:id="@+id/l39"
+                android:layout_width="185dp"
+                android:layout_height="92dp"
+                android:layout_marginStart="15dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 9"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/l37" />
+
+            <Button
+                android:id="@+id/l37"
+                android:layout_width="185dp"
+                android:layout_height="110dp"
+                android:layout_marginStart="12dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 7"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/l35" />
+
+            <Button
+                android:id="@+id/l38"
+                android:layout_width="175dp"
+                android:layout_height="110dp"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 8"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toEndOf="@+id/l39"
+                app:layout_constraintTop_toBottomOf="@+id/l36" />
+
+            <Button
+                android:id="@+id/l34"
+                android:layout_width="175dp"
+                android:layout_height="155dp"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 4"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toEndOf="@+id/l31"
+                app:layout_constraintTop_toBottomOf="@+id/l32" />
+
+            <Button
+                android:id="@+id/l33"
+                android:layout_width="185dp"
+                android:layout_height="77dp"
+                android:layout_marginStart="12dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 3"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/l31" />
+
+            <Button
+                android:id="@+id/l36"
+                android:layout_width="175dp"
+                android:layout_height="135dp"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 6"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toEndOf="@+id/l35"
+                app:layout_constraintTop_toBottomOf="@+id/l34" />
+
+            <Button
+                android:id="@+id/l32"
+                android:layout_width="175dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 2"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toEndOf="@+id/l31"
+                app:layout_constraintTop_toBottomOf="@+id/unit3" />
+
+            <Button
+                android:id="@+id/unit4"
+                android:layout_width="0dp"
+                android:layout_height="72dp"
+                android:backgroundTint="#1C9181"
+                android:checkable="true"
+                android:clickable="true"
+                android:insetLeft="10dp"
+                android:insetRight="10dp"
+                android:onClick="lisning_acilis"
+                android:text="Unit 4"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:visibility="visible"
+                app:cornerRadius="10dp"
+                app:icon="@drawable/earpods"
+                app:iconSize="35dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/l38" />
+
+            <Button
+                android:id="@+id/unit5"
+                android:layout_width="0dp"
+                android:layout_height="72dp"
+                android:backgroundTint="#1C9181"
+                android:checkable="true"
+                android:clickable="true"
+                android:insetLeft="10dp"
+                android:insetRight="10dp"
+                android:onClick="lisning_acilis"
+                android:text="Unit 5"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:visibility="visible"
+                app:cornerRadius="10dp"
+                app:icon="@drawable/headphone__5_"
+                app:iconSize="35dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/l46" />
+
+            <Button
+                android:id="@+id/unit6"
+                android:layout_width="0dp"
+                android:layout_height="72dp"
+                android:backgroundTint="#1C9181"
+                android:checkable="true"
+                android:clickable="true"
+                android:insetLeft="10dp"
+                android:insetRight="10dp"
+                android:onClick="lisning_acilis"
+                android:text="Unit 6"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:visibility="visible"
+                app:cornerRadius="10dp"
+                app:icon="@drawable/earbuds"
+                app:iconSize="40dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/l59" />
+
+            <Button
+                android:id="@+id/unit8"
+                android:layout_width="0dp"
+                android:layout_height="72dp"
+                android:backgroundTint="#1C9181"
+                android:checkable="true"
+                android:clickable="true"
+                android:insetLeft="10dp"
+                android:insetRight="10dp"
+                android:onClick="lisning_acilis"
+                android:text="Unit 8"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:visibility="visible"
+                app:cornerRadius="10dp"
+                app:icon="@drawable/earphone"
+                app:iconSize="40dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/l75" />
+
+            <Button
+                android:id="@+id/unit9"
+                android:layout_width="0dp"
+                android:layout_height="72dp"
+                android:backgroundTint="#1C9181"
+                android:checkable="true"
+                android:clickable="true"
+                android:insetLeft="10dp"
+                android:insetRight="10dp"
+                android:onClick="lisning_acilis"
+                android:text="Unit 9"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:visibility="visible"
+                app:cornerRadius="10dp"
+                app:icon="@drawable/headphones"
+                app:iconSize="40dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/l86" />
+
+            <Button
+                android:id="@+id/unit7"
+                android:layout_width="0dp"
+                android:layout_height="72dp"
+                android:backgroundTint="#1C9181"
+                android:checkable="true"
+                android:clickable="true"
+                android:insetLeft="10dp"
+                android:insetRight="10dp"
+                android:onClick="lisning_acilis"
+                android:text="Unit 7"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:visibility="visible"
+                app:cornerRadius="10dp"
+                app:icon="@drawable/headphone__3_"
+                app:iconSize="45dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/l66" />
+
+            <Button
+                android:id="@+id/l45"
+                android:layout_width="185dp"
+                android:layout_height="127dp"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 5"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toEndOf="@+id/l46"
+                app:layout_constraintTop_toBottomOf="@+id/l43" />
+
+            <Button
+                android:id="@+id/l43"
+                android:layout_width="185dp"
+                android:layout_height="115dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 3"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toEndOf="@+id/l44"
+                app:layout_constraintTop_toBottomOf="@+id/l42" />
+
+            <Button
+                android:id="@+id/l44"
+                android:layout_width="175dp"
+                android:layout_height="107dp"
+                android:layout_marginStart="15dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 4"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/l41" />
+
+            <Button
+                android:id="@+id/l46"
+                android:layout_width="175dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="15dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 6"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/l44" />
+
+            <Button
+                android:id="@+id/l42"
+                android:layout_width="185dp"
+                android:layout_height="77dp"
+                android:layout_marginStart="8dp"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 2"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toEndOf="@+id/l41"
+                app:layout_constraintTop_toBottomOf="@+id/unit4" />
+
+            <Button
+                android:id="@+id/l41"
+                android:layout_width="175dp"
+                android:layout_height="138dp"
+                android:layout_marginStart="15dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 1"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/unit4" />
+
+            <Button
+                android:id="@+id/l53"
+                android:layout_width="185dp"
+                android:layout_height="65dp"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 3"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toEndOf="@+id/l54"
+                app:layout_constraintTop_toBottomOf="@+id/l52" />
+
+            <Button
+                android:id="@+id/l58"
+                android:layout_width="175dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="12dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 8"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/l56" />
+
+            <Button
+                android:id="@+id/l55"
+                android:layout_width="185dp"
+                android:layout_height="127dp"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 5"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toEndOf="@+id/l54"
+                app:layout_constraintTop_toBottomOf="@+id/l53" />
+
+            <Button
+                android:id="@+id/l52"
+                android:layout_width="185dp"
+                android:layout_height="115dp"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 2"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toEndOf="@+id/l51"
+                app:layout_constraintTop_toBottomOf="@+id/unit5" />
+
+            <Button
+                android:id="@+id/l57"
+                android:layout_width="185dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 7"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toEndOf="@+id/l51"
+                app:layout_constraintTop_toBottomOf="@+id/l55" />
+
+            <Button
+                android:id="@+id/l51"
+                android:layout_width="175dp"
+                android:layout_height="107dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="8dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 1"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/unit5" />
+
+            <Button
+                android:id="@+id/l56"
+                android:layout_width="175dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="12dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 6"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/l54" />
+
+            <Button
+                android:id="@+id/l59"
+                android:layout_width="185dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 9"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toEndOf="@+id/l56"
+                app:layout_constraintTop_toBottomOf="@+id/l57" />
+
+            <Button
+                android:id="@+id/l54"
+                android:layout_width="175dp"
+                android:layout_height="155dp"
+                android:layout_marginStart="12dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 4"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/l51" />
+
+            <Button
+                android:id="@+id/l67"
+                android:layout_width="185dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 7"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toEndOf="@+id/l66"
+                app:layout_constraintTop_toBottomOf="@+id/l65" />
+
+            <Button
+                android:id="@+id/l65"
+                android:layout_width="185dp"
+                android:layout_height="65dp"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 5"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toEndOf="@+id/l66"
+                app:layout_constraintTop_toBottomOf="@+id/l63" />
+
+            <Button
+                android:id="@+id/l66"
+                android:layout_width="175dp"
+                android:layout_height="155dp"
+                android:layout_marginStart="12dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 6"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/l64" />
+
+            <Button
+                android:id="@+id/l63"
+                android:layout_width="185dp"
+                android:layout_height="127dp"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 3"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toEndOf="@+id/l64"
+                app:layout_constraintTop_toBottomOf="@+id/l62" />
+
+            <Button
+                android:id="@+id/l64"
+                android:layout_width="175dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="12dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 4"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/l61" />
+
+            <Button
+                android:id="@+id/l62"
+                android:layout_width="185dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 2"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toEndOf="@+id/l61"
+                app:layout_constraintTop_toBottomOf="@+id/unit6" />
+
+            <Button
+                android:id="@+id/l61"
+                android:layout_width="175dp"
+                android:layout_height="145dp"
+                android:layout_marginStart="12dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 1"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/unit6" />
+
+            <Button
+                android:id="@+id/l76"
+                android:layout_width="175dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 6"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toEndOf="@+id/l75"
+                app:layout_constraintTop_toBottomOf="@+id/l74" />
+
+            <Button
+                android:id="@+id/l74"
+                android:layout_width="175dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 4"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toEndOf="@+id/l73"
+                app:layout_constraintTop_toBottomOf="@+id/l72" />
+
+            <Button
+                android:id="@+id/l75"
+                android:layout_width="185dp"
+                android:layout_height="127dp"
+                android:layout_marginStart="12dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 5"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/l73" />
+
+            <Button
+                android:id="@+id/l72"
+                android:layout_width="175dp"
+                android:layout_height="125dp"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 2"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toEndOf="@+id/l71"
+                app:layout_constraintTop_toBottomOf="@+id/unit7" />
+
+            <Button
+                android:id="@+id/l73"
+                android:layout_width="185dp"
+                android:layout_height="65dp"
+                android:layout_marginStart="12dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 3"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/l71" />
+
+            <Button
+                android:id="@+id/l71"
+                android:layout_width="185dp"
+                android:layout_height="145dp"
+                android:layout_marginStart="12dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 1"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/unit7" />
+
+            <Button
+                android:id="@+id/l86"
+                android:layout_width="185dp"
+                android:layout_height="65dp"
+                android:layout_marginStart="12dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 6"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/l84" />
+
+            <Button
+                android:id="@+id/l85"
+                android:layout_width="175dp"
+                android:layout_height="120dp"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 5"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toEndOf="@+id/l84"
+                app:layout_constraintTop_toBottomOf="@+id/l83" />
+
+            <Button
+                android:id="@+id/l83"
+                android:layout_width="175dp"
+                android:layout_height="90dp"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 3"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toEndOf="@+id/l84"
+                app:layout_constraintTop_toBottomOf="@+id/l82" />
+
+            <Button
+                android:id="@+id/l84"
+                android:layout_width="185dp"
+                android:layout_height="127dp"
+                android:layout_marginStart="12dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 4"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/l81" />
+
+            <Button
+                android:id="@+id/l82"
+                android:layout_width="175dp"
+                android:layout_height="125dp"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 2"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toEndOf="@+id/l81"
+                app:layout_constraintTop_toBottomOf="@+id/unit8" />
+
+            <Button
+                android:id="@+id/l81"
+                android:layout_width="185dp"
+                android:layout_height="145dp"
+                android:layout_marginStart="12dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 1"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/unit8" />
+
+            <Button
+                android:id="@+id/l96"
+                android:layout_width="185dp"
+                android:layout_height="125dp"
+                android:layout_marginStart="12dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 6"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/l93" />
+
+            <Button
+                android:id="@+id/l95"
+                android:layout_width="175dp"
+                android:layout_height="65dp"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 5"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toEndOf="@+id/l96"
+                app:layout_constraintTop_toBottomOf="@+id/l94" />
+
+            <Button
+                android:id="@+id/l94"
+                android:layout_width="175dp"
+                android:layout_height="145dp"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 4"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toEndOf="@+id/l91"
+                app:layout_constraintTop_toBottomOf="@+id/l92" />
+
+            <Button
+                android:id="@+id/l93"
+                android:layout_width="185dp"
+                android:layout_height="90dp"
+                android:layout_marginStart="12dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 3"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/l91" />
+
+            <Button
+                android:id="@+id/l92"
+                android:layout_width="175dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 2"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toEndOf="@+id/l91"
+                app:layout_constraintTop_toBottomOf="@+id/unit9" />
+
+            <Button
+                android:id="@+id/l91"
+                android:layout_width="185dp"
+                android:layout_height="145dp"
+                android:layout_marginStart="12dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 1"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/unit9" />
+
+            <Button
+                android:id="@+id/l98"
+                android:layout_width="185dp"
+                android:layout_height="87dp"
+                android:layout_marginStart="12dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 8"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/l96" />
+
+            <Button
+                android:id="@+id/l97"
+                android:layout_width="175dp"
+                android:layout_height="125dp"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 7"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toEndOf="@+id/l96"
+                app:layout_constraintTop_toBottomOf="@+id/l95" />
+
+            <Button
+                android:id="@+id/unit10"
+                android:layout_width="0dp"
+                android:layout_height="72dp"
+                android:layout_marginTop="5dp"
+                android:backgroundTint="#1C9181"
+                android:checkable="true"
+                android:clickable="true"
+                android:insetLeft="10dp"
+                android:insetRight="10dp"
+                android:onClick="lisning_acilis"
+                android:text="Unit 10"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:visibility="visible"
+                app:cornerRadius="10dp"
+                app:icon="@drawable/earpods"
+                app:iconSize="40dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/l98" />
+
+            <Button
+                android:id="@+id/unit12"
+                android:layout_width="0dp"
+                android:layout_height="72dp"
+                android:backgroundTint="#1C9181"
+                android:checkable="true"
+                android:clickable="true"
+                android:insetLeft="10dp"
+                android:insetRight="10dp"
+                android:onClick="lisning_acilis"
+                android:text="Unit 12"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:cornerRadius="10dp"
+                app:icon="@drawable/earbuds"
+                app:iconSize="40dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/l116" />
+
+            <Button
+                android:id="@+id/unit11"
+                android:layout_width="0dp"
+                android:layout_height="72dp"
+                android:backgroundTint="#1C9181"
+                android:checkable="true"
+                android:clickable="true"
+                android:insetLeft="10dp"
+                android:insetRight="10dp"
+                android:onClick="lisning_acilis"
+                android:text="Unit 11"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                app:cornerRadius="10dp"
+                app:icon="@drawable/headphone"
+                app:iconSize="40dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/l104" />
+
+            <Button
+                android:id="@+id/l103"
+                android:layout_width="185dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="12dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 3"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/l101" />
+
+            <Button
+                android:id="@+id/l104"
+                android:layout_width="175dp"
+                android:layout_height="135dp"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 4"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toEndOf="@+id/l103"
+                app:layout_constraintTop_toBottomOf="@+id/l102" />
+
+            <Button
+                android:id="@+id/l101"
+                android:layout_width="185dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="12dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 1"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/unit10" />
+
+            <Button
+                android:id="@+id/l105"
+                android:layout_width="185dp"
+                android:layout_height="90dp"
+                android:layout_marginStart="12dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 5"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/l103" />
+
+            <Button
+                android:id="@+id/l102"
+                android:layout_width="175dp"
+                android:layout_height="155dp"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 2"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toEndOf="@+id/l101"
+                app:layout_constraintTop_toBottomOf="@+id/unit10" />
+
+            <Button
+                android:id="@+id/l116"
+                android:layout_width="185dp"
+                android:layout_height="90dp"
+                android:layout_marginStart="12dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 6"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/l113" />
+
+            <Button
+                android:id="@+id/l114"
+                android:layout_width="175dp"
+                android:layout_height="68dp"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 4"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toEndOf="@+id/l111"
+                app:layout_constraintTop_toBottomOf="@+id/l112" />
+
+            <Button
+                android:id="@+id/l112"
+                android:layout_width="175dp"
+                android:layout_height="135dp"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 2"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toEndOf="@+id/l111"
+                app:layout_constraintTop_toBottomOf="@+id/unit11" />
+
+            <Button
+                android:id="@+id/l113"
+                android:layout_width="185dp"
+                android:layout_height="140dp"
+                android:layout_marginStart="12dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 3"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/l111" />
+
+            <Button
+                android:id="@+id/l111"
+                android:layout_width="185dp"
+                android:layout_height="118dp"
+                android:layout_marginStart="12dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 1"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/unit11" />
+
+            <Button
+                android:id="@+id/l115"
+                android:layout_width="175dp"
+                android:layout_height="140dp"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 5"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toEndOf="@+id/l116"
+                app:layout_constraintTop_toBottomOf="@+id/l114" />
+
+            <Button
+                android:id="@+id/l125"
+                android:layout_width="185dp"
+                android:layout_height="128dp"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 5"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toEndOf="@+id/l124"
+                app:layout_constraintTop_toBottomOf="@+id/l123" />
+
+            <Button
+                android:id="@+id/l123"
+                android:layout_width="185dp"
+                android:layout_height="68dp"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 3"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toEndOf="@+id/l121"
+                app:layout_constraintTop_toBottomOf="@+id/l122" />
+
+            <Button
+                android:id="@+id/l124"
+                android:layout_width="175dp"
+                android:layout_height="165dp"
+                android:layout_marginStart="12dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 4"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/l121" />
+
+            <Button
+                android:id="@+id/l122"
+                android:layout_width="185dp"
+                android:layout_height="100dp"
+                android:layout_marginStart="8dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 2"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toEndOf="@+id/l121"
+                app:layout_constraintTop_toBottomOf="@+id/unit12" />
+
+            <Button
+                android:id="@+id/l121"
+                android:layout_width="175dp"
+                android:layout_height="140dp"
+                android:layout_marginStart="12dp"
+                android:backgroundTint="#6FEAD8"
+                android:onClick="todinleme"
+                android:text="Listening 1"
+                android:textColor="#000000"
+                android:visibility="gone"
+                app:cornerRadius="25dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/unit12" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </ScrollView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

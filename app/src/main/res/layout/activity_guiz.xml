@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".guiz"
+    tools:layout_editor_absoluteX="0dp"
+    tools:layout_editor_absoluteY="33dp">
+
+    <ImageView
+        android:id="@+id/false_icon"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="19dp"
+        android:layout_marginEnd="8dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:srcCompat="@drawable/cancel" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="25dp"
+        android:layout_marginEnd="8dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/hearth"
+        app:srcCompat="@drawable/check" />
+
+    <ProgressBar
+        android:id="@+id/guiz_Bar"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="0dp"
+        android:layout_height="21dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="32dp"
+        android:foregroundTint="#6C60D6"
+        android:progressBackgroundTint="#6C60D6"
+        android:progressBackgroundTintMode="src_in"
+        android:progressTint="#880A0A"
+        app:layout_constraintEnd_toStartOf="@+id/guiz_sayac"
+        app:layout_constraintStart_toEndOf="@+id/guiz_exit"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/guiz_exit"
+        android:layout_width="77dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#FFFFFF"
+        android:textColor="#FFFFFF"
+        app:cornerRadius="50dp"
+        app:icon="@drawable/log_in"
+        app:iconSize="35dp"
+        app:iconTint="#6C60D6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/guiz_sayac"
+        android:layout_width="75dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="5dp"
+        android:text="0/"
+        android:textAlignment="textEnd"
+        android:textColor="#6C60D6"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/hearth"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/true_text"
+        android:layout_width="75dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="3dp"
+        android:text="0"
+        android:textAlignment="textEnd"
+        android:textColor="#6C60D6"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/guiz_sayac" />
+
+    <TextView
+        android:id="@+id/false_text"
+        android:layout_width="75dp"
+        android:layout_height="29dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="3dp"
+        android:text="0"
+        android:textAlignment="textEnd"
+        android:textColor="#6C60D6"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toStartOf="@+id/imageView4"
+        app:layout_constraintTop_toBottomOf="@+id/true_text" />
+
+    <Button
+        android:id="@+id/guiz_true3"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#72DDFF"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:onClick="btnClick"
+        android:text="."
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        android:visibility="visible"
+        app:cornerRadius="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/guiz_true4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guiz_true1"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/guiz_true4"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="10dp"
+        android:backgroundTint="#6C60D6"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:onClick="btnClick"
+        android:text="."
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:cornerRadius="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/guiz_true3"
+        app:layout_constraintTop_toBottomOf="@+id/guiz_true2" />
+
+    <Button
+        android:id="@+id/guiz_true1"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="404dp"
+        android:backgroundTint="#6C60D6"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:onClick="btnClick"
+        android:text="."
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:cornerRadius="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/guiz_true3"
+        app:layout_constraintEnd_toStartOf="@+id/guiz_true2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/guiz_true2"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="404dp"
+        android:layout_marginEnd="10dp"
+        android:backgroundTint="#72DDFF"
+        android:insetTop="0dp"
+        android:insetBottom="0dp"
+        android:onClick="btnClick"
+        android:text="."
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:cornerRadius="25dp"
+        app:layout_constraintBottom_toTopOf="@+id/guiz_true4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/guiz_true1"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/guiz_soru"
+        android:layout_width="0dp"
+        android:layout_height="101dp"
+        android:layout_marginTop="132dp"
+        android:backgroundTint="#6C60D6"
+        android:clickable="false"
+        android:insetLeft="10dp"
+        android:insetRight="10dp"
+        android:longClickable="false"
+        android:text="."
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+        android:textColor="#FFFFFF"
+        android:textSize="16sp"
+        app:cornerRadius="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/guiz_exit"
+        app:layout_constraintVertical_bias="0.028" />
+
+    <RadioGroup
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="240dp"
+        app:layout_constraintBottom_toTopOf="@+id/guiz_true1"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <RadioButton
+            android:id="@+id/Azerbaijan"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#980740"
+            android:text="Azerbaijan"
+            android:textSize="16sp" />
+
+        <RadioButton
+            android:id="@+id/English"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:buttonTint="#980740"
+            android:checked="true"
+            android:text="English"
+            android:textSize="16sp" />
+    </RadioGroup>
+
+    <ImageView
+        android:id="@+id/hearth"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="8dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/love__1_" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

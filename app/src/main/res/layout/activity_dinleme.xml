@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#2437B3"
+    android:backgroundTint="#61B3DF"
+    android:foregroundTint="#CD6565"
+    tools:context=".Dinleme">
+
+    <Button
+        android:id="@+id/dinleme_exit"
+        android:layout_width="77dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="8dp"
+        android:backgroundTint="#61B3DF"
+        android:textColor="#61B3DF"
+        app:cornerRadius="50dp"
+        app:icon="@drawable/log_in"
+        app:iconSize="35dp"
+        app:iconTint="#110960"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="246dp"
+        android:layout_height="264dp"
+        android:layout_marginTop="144dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.527"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/headphone__1_" />
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="0dp"
+        android:layout_height="63dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintEnd_toStartOf="@+id/Speet"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/Playpause"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/Speet"
+        android:layout_width="88dp"
+        android:layout_height="67dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="8dp"
+        android:backgroundTint="#61B3DF"
+        android:insetRight="5dp"
+        android:text="1X"
+        android:textColor="#000000"
+        android:textSize="16sp"
+        app:cornerRadius="30dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+    <Button
+        android:id="@+id/Playpause"
+        android:layout_width="78dp"
+        android:layout_height="66dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="48dp"
+        android:backgroundTint="#61B3DF"
+        android:insetLeft="5dp"
+        app:cornerRadius="30dp"
+        app:icon="@drawable/listning_play_button"
+        app:iconSize="30dp"
+        app:iconTint="#000000"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="0dp"
+        android:layout_height="42dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginEnd="15dp"
+        android:foregroundGravity="center"
+        android:gravity="center"
+        android:text="name"
+        android:textDirection="inherit"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.142"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
